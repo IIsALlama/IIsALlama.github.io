@@ -60,3 +60,9 @@
     background-image: url("images/button-twitter.png");
     background-color: rgb(29, 161, 242);
 }
+.text{
+    text-align: center; 
+    font-size: 150%; 
+    font-family: VCR_OSD_MONO; 
+    color: rgb(229,169,47);
+}
