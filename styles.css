@@ -16,6 +16,7 @@
     margin-top: 5px;
     transition-duration: 0.5s;
     border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.4);
 }
 .itch:hover{
     width: 560px;
@@ -53,5 +54,9 @@
 }
 .youtube-button{
     background-image: url("images/button-youtube.png");
-    background-color: white;
+    background-color: rgb(250, 0, 0)
+}
+.twitter-button{
+    background-image: url("images/button-twitter.png");
+    background-color: rgb(29, 161, 242);
 }
