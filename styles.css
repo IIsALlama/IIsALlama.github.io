@@ -80,10 +80,10 @@
     text-align: center; 
     font-size: 150%; 
     font-family: VCR_OSD_MONO;
-    color: white
+    color: white;
 }
 .title{
-    font-family:Daydream;
+    font-family: Daydream;
     background: -webkit-linear-gradient(white, wheat);
     -webkit-background-clip: text;
     background-clip: text;
