@@ -16,6 +16,8 @@
     margin-top: 30px;
     margin-right: 65px;
     margin-left: 65px;
+    background-image: none;
+    background-color: rgb(24, 20, 37);
 }
 .youtubeEmbed{
     border: 2px solid rgb(51, 51, 51); 
@@ -78,10 +80,11 @@
 .text{
     text-align: center; 
     font-size: 150%; 
-    font-family: VCR_OSD_MONO; 
+    font-family:VCR_OSD_MONO;
     color: white
 }
 .title{
+    font-family: Daydream;
     background: -webkit-linear-gradient(white, wheat);
     -webkit-background-clip: text;
     background-clip: text;
