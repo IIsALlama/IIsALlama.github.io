@@ -4,6 +4,7 @@
         <style> 
             @font-face { font-family: "VCR_OSD_MONO"; src: url("../fonts/VCR_OSD_MONO.ttf"); } 
             @font-face { font-family: "Daydream"; src: url("../fonts/Daydream.ttf"); } 
+            @font-face { font-family: "Lilian"; src: url("fonts/Lilian.ttf"); } 
         </style>
 
         <title>LlamaDev Games</title>
@@ -30,32 +31,18 @@
         <meta name="twitter:description" content="Game dev team working on a top-down dungeon crawler game">
         <meta name="twitter:image" content="https://llamadev-games.github.io/images/banner.png">
         
-        <img src="../images/banner.png" alt="banner.png" class="banner">
+        <div class="header" style="display: flex; align-items: center; justify-content: center;">
+            <img src="../images/banner.png" alt="banner.png" class="banner">
+        </div>
     <head>
     <body style="background-color: rgb(24, 20, 37); background-image: url(images/back_upside.png);">
 
-        <div style="display: flex; align-items: center; justify-content: center;">
-            <a href="https://discord.gg/E4vavTZ" class="link-button discord-button"></a>
-            <a href="https://llamadev-games.itch.io" class="link-button itch-button"></a>
-            <a href="https://www.youtube.com/channel/UC4UAbwMZQdi0UyGTORL6zPw" class="link-button youtube-button"></a>
-            <a href="https://twitter.com/LlamaDevGames" class="link-button twitter-button"></a>
-        </div>
-
-        <div class="section">
+        <div class="section" style="margin-top: 50px;">
             <h1 class="text title", style="font-size: 600%;">Games</h1>
             <div style="display: grid; align-items: center; justify-content: center; grid-template-columns: auto auto; margin-bottom: 50px;">
                 
-                <div style="display: grid; align-items: center; justify-content: center; grid-template-columns: auto;" class="game">
-                    <img src="../images/AspectArtWithLogo.png"></img>
-                </div>
-                
-                <iframe frameborder="0" src="https://itch.io/embed/1000031?border_width=5&amp;bg_color=171e24&amp;fg_color=d4be18&amp;link_color=E5A92F&amp;border_color=333333" class="itch">
-                    <a href="https://llamadev-games.itch.io/aspect">Aspect by LlamaDev Games</a>
-                </iframe>
-
-                <iframe frameborder="0" src="https://itch.io/embed/1083925?border_width=5&amp;bg_color=171e24&amp;fg_color=d4be18&amp;link_color=E5A92F&amp;border_color=333333" class="itch">
-                    <a href="https://llamadev-games.itch.io/web">Web by LlamaDev Games, llamaking</a>
-                </iframe>
+                <a href="https://llamadev-games.github.io/games/aspect" class="game" style="background-image: url(../images/AspectArtWithLogo.png); background-size:auto"></a>
+                <a href="https://llamadev-games.github.io/games/web" class="game" style="background-image: url(../images/webtitle.png);"></a>
 
                 <iframe frameborder="0" src="https://itch.io/embed/829343?border_width=5&amp;bg_color=171e24&amp;fg_color=d4be18&amp;link_color=E5A92F&amp;border_color=333333" class="itch">
                     <a href="https://llamaking1.itch.io/tiny-settlers">Tiny Settlers by llamaking, LlamaDev Games</a>
