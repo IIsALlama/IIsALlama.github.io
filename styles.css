@@ -106,10 +106,14 @@
     text-align: center; 
     font-size: 150%; 
     font-family: VCR_OSD_MONO;
-    color: white;
+    color: white
 }
 .title{
+<<<<<<< HEAD
     font-family: Lilian;
+=======
+    font-family:Daydream;
+>>>>>>> parent of 3b96a37 (Update styles.css)
     background: -webkit-linear-gradient(white, wheat);
     -webkit-background-clip: text;
     background-clip: text;
