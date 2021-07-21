@@ -97,14 +97,15 @@
     background-image: url("images/button-youtube.png");
     background-color: rgb(250, 0, 0)
 }
-.twitter-button{
-    background-image: url("images/button-twitter.png");
-    background-color: rgb(29, 161, 242);
-}
 .back-button{
     background-color: rgb(24, 20, 37);
     background-image: url("images/button-back.png");
 }
+.twitter-button{
+    background-image: url("images/button-twitter.png");
+    background-color: rgb(29, 161, 242);
+}
+
 .text{
     text-align: center; 
     font-size: 150%; 
