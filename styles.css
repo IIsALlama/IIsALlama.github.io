@@ -9,11 +9,11 @@
     border: 2px solid rgb(51, 51, 51);
 }
 .logo{
+    margin-top: 10px;
     margin-right: auto;
     width: 50%;
     display: block;
     margin-left: auto;
-    
 }
 .section{
     border: 2px solid rgb(51, 51, 51); 
@@ -100,6 +100,10 @@
 .twitter-button{
     background-image: url("images/button-twitter.png");
     background-color: rgb(29, 161, 242);
+}
+.back-button{
+    background-image: url("images/button-back.png");
+    background-color: rgb(24, 20, 37);
 }
 .text{
     text-align: center; 
