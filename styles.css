@@ -102,8 +102,8 @@
     background-color: rgb(29, 161, 242);
 }
 .back-button{
-    background-image: url("images/button-back.png");
     background-color: rgb(24, 20, 37);
+    background-image: url("images/button-back.png");
 }
 .text{
     text-align: center; 
