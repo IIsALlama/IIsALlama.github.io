@@ -112,8 +112,15 @@
     font-family: VCR_OSD_MONO;
     color: white;
 }
+.list{
+    text-align: left; 
+    line-height: 160%;
+    font-size: 150%; 
+    font-family: VCR_OSD_MONO;
+    color: white;
+}
 .title{
-    font-family: Daydream;
+    font-family: VCR_OSD_MONO;
     background: -webkit-linear-gradient(white, wheat);
     -webkit-background-clip: text;
     background-clip: text;
