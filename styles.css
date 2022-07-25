@@ -21,8 +21,8 @@
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-right: 65px;
-    margin-left: 65px;
+    margin-right: 30px;
+    margin-left: 30px;
     background-color: rgb(24, 20, 38);
 }
 .game{
@@ -120,8 +120,8 @@
     color: white;
 }
 .title{
-    font-family: VCR_OSD_MONO;
-    background: -webkit-linear-gradient(white, wheat);
+    font-family: Daydream;
+    background: white;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
